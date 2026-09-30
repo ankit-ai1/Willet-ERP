@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Willet Enterprise Platform — Order to cash to service, in one system</title>
+<meta name="description" content="Willet Enterprise Platform: supply chain, inventory, manufacturing, quality, field service, attendance, Tally and monthly reporting — one connected system, with a portal for customers and distributors." />
+<meta name="theme-color" content="#060d18" />
+<meta property="og:title" content="Willet Enterprise Platform" />
+<meta property="og:description" content="One system from order to cash to service — ERP for staff, portal for partners." />
+<meta property="og:image" content="/assets/dashboard.jpg" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<script>
+  (function () {
+    var t; try { t = localStorage.getItem('wep.site.theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') t = (window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Inter+Tight:wght@500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+<!-- Login links & settings: edit public/config.js (or config.js in the built site) -->
+<script src="/config.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
